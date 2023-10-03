@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, css, javascript " />
+
+    <meta name="description" content="Learning about Meta Tags." />
+
+    <meta name="author" content="Jaya" />
+
+    <meta name="revised" content="Tutorialspoint, 3/7/2014" />
+
+    <!-- <meta http-equiv="refresh" content="2" /> -->
+
+    <meta
+      http-equiv="cookie"
+      content="userid = xyz; expires = Wednesday, 08-Aug-15 23:59:59 GMT;"
+    />
+
+    <title>Document</title>
+    <base href="https://www.youtube.com/ " target="_blank" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <script>
+      //variables
+      // {
+      //   var a = 12;
+      //   let b = 10;
+      //   const c = 20;
+      //   console.log(a);
+      //   console.log(b);
+      //   console.log(c);
+      // }
+      // console.log(a);
+      // console.log(b);
+      // console.log(c);
+
+      //update
+      // let x = 11;
+      // var y = 12;
+      // const z = 20;
+
+      // x = 111;
+      // y = 123;
+      // z = 345;
+      // console.log(x);
+      // console.log(y);
+      // console.log(z);
+
+      //re-declare
+      // let m = 11;
+      // const n = 12;
+      // var o = 10;
+
+      // let p = 11;
+      // const q = 12;
+      // var r = 10;
+
+      // //named function
+      // function hellofunction() {
+      //   console.log("hello");
+      // }
+      // hellofunction();
+
+      // //anonymous function
+
+      // let getFunction = function (number) {
+      //   console.log(number);
+      // };
+      // getFunction("3");
+      // //arrow function
+
+      // const arrowfunction = () => {
+      //   console.log("my name");
+      // };
+      // arrowfunction();
+
+      // const myarrow = () => {
+      //   return "jaya";
+      // };
+      // console.log(myarrow());
+
+      // //IIFE
+      // (function () {
+      //   console.log("Invoke function");
+      // })();
+
+      //Ternary operators
+      // let marks = prompt("Enter your marks");
+      // let result = marks >= 40 ? "pass" : "fail";
+      // console.log(`your ${result} the exam`);
+
+      // let age = 15;
+      // const value =
+      //   age >= 18
+      //     ? "You are eligible to vote"
+      //     : "You are not eligible to vote yet";
+      // console.log(value);
+
+      //nested conditions
+      // let a = 3;
+      // const number = a >= 0 ? (a == 0 ? "zero" : "positive") : "negative";
+      // console.log(number);
+      //Javascript string methods
+      //length
+      // var arr1 = "hello world";
+      // console.log(arr1.length);
+      //trim
+      // var arr2 = " hello world  ";
+      // console.log(arr2.trim());
+
+      //slice
+      // var arr3 = "hello world";
+      // console.log(arr3.slice(0, 5));
+      //toUppercase
+      // var arr4 = "hello world";
+      // console.log(arr4.toUpperCase());
+      //tolowercase
+      // var arr5 = "HELLO WORLD";
+      // console.log(arr5.toLowerCase());
+
+      //concat
+      // var arr6 = "hello";
+      // var arr7 = "world";
+      // console.log(arr6.concat(arr7));
+      //replace
+      // var arr8 = "Please visit Microsoft!";
+      // console.log(arr8.replace("Microsoft", "excel"));
+
+      //replaceall
+      // var arr9 =
+      //   "I love cats. Cats are very easy to love. Cats are very popular";
+      // console.log(arr9.replaceAll("Cats", "Dog"));
+
+      //charAt
+      // var arr10 = "Please visit Microsoft!";
+      // console.log(arr10.charAt(5));
+      //split
+      // var arr11 = "Please visit Microsoft!";
+      // console.log(arr11.split(""));
+      // console.log(arr11.split(" "));
+      //pad start
+      // var arr12 = "p";
+      // console.log(arr12.padStart(4, "0"));
+      //pad end
+      // var arr13 = "p";
+      // console.log(arr12.padEnd(4, "0"));
+
+      //trimstart
+      // let text1 = "     Hello World!     ";
+      // console.log(text1.trimStart());
+      //trimend
+      // let text3 = "     Hello World!     ";
+      // console.log(text3.trimEnd());
+      //join
+      // let text4 = [" Hello", "World!"];
+      // console.log(text4.join(" "));
+      // //sub
+      // let str = "Apple, Banana, Kiwi";
+      // console.log(str.substring(7, 13));
+      // //substr()
+      // let str1 = "Apple, Banana, Kiwi";
+      // console.log(str1.substr(7, 5));
+
+      // //indexOf
+      // let text5 = [" Hello", "World", "pink", "white", "World"];
+      // console.log(text5.indexOf("World"));
+      // console.log(text5.indexOf("hi"));
+      // console.log(text5.indexOf("World", 2));
+      // //lastIndexOf
+      // let text6 = [" Hello", "World", "pink", "white", "World"];
+      // console.log(text6.lastIndexOf("World"));
+
+      // exam if statement
+      //today is my first statement
+      // const p = "Today is my first statement";
+      // Type-1
+      // if (p.includes("Today")) {
+      //   console.log("Today is my first statement");
+      // } else {
+      //   console.log("sentence Not found");
+      // }
+      // ----
+      const q = "Today is my first statement";
+      if (q.startsWith("Today")) {
+        console.log("True");
+      } else {
+        console.log("false");
+      }
+
+      //"my last class is tommorrow
+      const r = "my last class is tommorrow";
+      if (r.endsWith("tommorrow")) {
+        console.log("true");
+      } else {
+        console.log("false");
+      }
+
+      // student
+
+      if (name == "XXX" && name1 == "YYY") {
+        console.log("please let him");
+      } else if (name == "XXX" || name == "YYY") {
+        console.log("Any one name is");
+      } else {
+        console.log("name not found");
+      }
+
+      //pass or fail
+      const raju = "pass";
+      if (raju == "pass") {
+        console.log("Raju allow this team");
+      } else {
+        console.log("Raju not allow this team");
+      }
+      //roll number
+      const studentName = "jaya,kutta,venki,bindu,sree";
+      const rollnumber = "01,12,32,44,55,";
+      const list = studentName.includes("kutta");
+      const check = rollnumber.match("12").join(" ");
+      if (studentName) {
+        console.log(check);
+      } else {
+        console.log("name not found");
+      }
+
+      //6th
+      const studentList = "jaya,kutta,venki,bindu,sree";
+      const role = "teacher";
+      const lists = studentList.split(",");
+      const students = lists.sort().join(" ");
+      if (role === "teacher") {
+        console.log(students);
+      }
+    </script>
+  </body>
+</html>
